@@ -12,7 +12,6 @@ const Hero = () => {
           scrambled it to make a type specimen book.
         </p>
       </div>
-      <hr />
     </>
   );
 };

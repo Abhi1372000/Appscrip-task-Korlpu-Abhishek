@@ -7,6 +7,7 @@ import {
   faGooglePay,
   faCcPaypal,
   faApplePay,
+  faCcMastercard,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -58,7 +59,6 @@ const Footer = () => {
           <div className="abcContainer">
             <h3>abc</h3>
             <br />
-            <br />
             <div className="bigScreenFooter">
               <Link href="" className="abc Links">
                 About Us
@@ -89,7 +89,6 @@ const Footer = () => {
           <hr className="responsiveHr" />
           <div className="quickLinks">
             <h3>QUICK LINKS</h3>
-            <br />
             <br />
             <div className="bigScreenFooter">
               <Link href="" className="q Links ">
@@ -126,17 +125,21 @@ const Footer = () => {
           <div className="social">
             <h3>FOLLOW US</h3>
             <br />
-            <div className="bigScreenFooter">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                size="2x"
-                className="footerIcons"
-              />
-              <FontAwesomeIcon
-                icon={faLinkedinIn}
-                size="2x"
-                className="footerIcons"
-              />
+            <div className="bigScreenFooter social-icons">
+              <div className="iconContainer">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  size="xl"
+                  className="footerIcons"
+                />
+              </div>
+              <div className="iconContainer">
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  size="xl"
+                  className="footerIcons"
+                />
+              </div>
             </div>
             <br />
             <hr className="responsiveHr" />
@@ -155,6 +158,11 @@ const Footer = () => {
               />
               <FontAwesomeIcon
                 icon={faApplePay}
+                size="2x"
+                className="footerIcons"
+              />
+              <FontAwesomeIcon
+                icon={faCcMastercard}
                 size="2x"
                 className="footerIcons"
               />

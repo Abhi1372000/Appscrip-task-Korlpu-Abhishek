@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Filterbar from "./components/Filterbar/Filterbar";
-import Main from "./components/Main";
+import Main from "./components/Main/IndexMain";
 import Footer from "./components/Footer/Footer";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Filterbar />
+      {/* <Filterbar /> */}
       <Main />
       <Footer />
     </main>

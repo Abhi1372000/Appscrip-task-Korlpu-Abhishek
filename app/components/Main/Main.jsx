@@ -1,5 +1,5 @@
 import React from "react";
-import { getProducts } from "../api/products";
+import { getProducts } from "../../api/products";
 import ProductCard from "../ProductCard/ProductCard";
 
 const Main = async () => {
